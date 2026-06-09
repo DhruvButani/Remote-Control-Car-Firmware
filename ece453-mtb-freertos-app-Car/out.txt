@@ -1,0 +1,16 @@
+source/app_hw/audio_amp.c:62:    xTaskCreate(
+source/app_hw/app_hw_device.c:340:    xTaskCreate(button_task,
+source/app_hw/task_ltr390uv.c:239:    xTaskCreate(task_ltr390uv, "Task_LTR390UV", configMINIMAL_STACK_SIZE * 2, NULL, configMAX_PRIORITIES - 6, NULL);
+source/app_hw/task_blink.c:181:  xTaskCreate(
+source/app_hw/task_io_expander.c:521:	xTaskCreate(
+source/app_hw/task_sendCarPacket.c:127:    xTaskCreate(task_sendCarPacket,
+source/app_hw/task_acc.c:240:    xTaskCreate(task_acc, "Task_ACC",
+source/app_hw/task_console.c:422:    xTaskCreate(
+source/app_hw/task_console.c:431:    xTaskCreate(
+source/app_hw/task_tof.c:201:    xTaskCreate(
+---QUEUES---
+source/FreeRTOS_CLI.c:0
+grep: source/SENSORS/*.c: No such file or directory
+---SEM---
+source/FreeRTOS_CLI.c:0
+grep: source/SENSORS/*.c: No such file or directory

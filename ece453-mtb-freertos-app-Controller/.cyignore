@@ -1,0 +1,11 @@
+# Documentation
+images
+
+# Exports, Project settings
+.mtbLaunchConfigs
+.settings
+.vscode
+
+# LibDriver SSD1351 stub interface (real implementation lives in task_lcd.c)
+source/ssd1351/driver_ssd1351_interface_template.c
+
